@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <UserTweets />
+    <!-- <CardTweets /> -->
 
   </div>
 </template>
@@ -8,10 +9,15 @@
 <script>
 
 import UserTweets from "@/components/UserTweets.vue";
+// import CardTweets from "@/components/CardTweets.vue";
+// import UserTweets from "@/components/UserTweets.vue";
+// import UserTweets from "@/components/UserTweets.vue";
+
 export default {
   name: 'App',
   components: {
-    UserTweets
+    UserTweets,
+    // CardTweets
   }
 }
 </script>
