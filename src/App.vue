@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <UserTweets />
 
   </div>
 </template>
 
 <script>
 
-import Tweets from "@/components/Tweets.vue";
+import UserTweets from "@/components/UserTweets.vue";
 export default {
   name: 'App',
   components: {
-    Tweets
+    UserTweets
   }
 }
 </script>
