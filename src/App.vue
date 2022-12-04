@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <UserTweets />
-    <!-- <CardTweets /> -->
+    <UserTweets msg="Welcome to Tweetie" />
 
   </div>
 </template>
@@ -9,15 +8,12 @@
 <script>
 
 import UserTweets from "@/components/UserTweets.vue";
-// import CardTweets from "@/components/CardTweets.vue";
-// import UserTweets from "@/components/UserTweets.vue";
-// import UserTweets from "@/components/UserTweets.vue";
+
 
 export default {
   name: 'App',
   components: {
     UserTweets,
-    // CardTweets
   }
 }
 </script>
@@ -30,5 +26,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+body {
+  background-color: #1D9BF0;
 }
 </style>
